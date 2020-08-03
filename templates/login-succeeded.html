@@ -1,0 +1,11 @@
+{% extends "base/base.html" %}
+{% block title %}Heh...{% endblock %}
+<head>
+    <link rel="stylesheet" href ="{{ url_for('static', filename='css/main.css') }}"/>
+</head>
+{% block content %}
+    <div href = "login-success">
+        <p>So you successfully logged in</p>
+        <p>Now kill yourself</p>
+    </div>
+{% endblock %}
